@@ -1,15 +1,13 @@
 import React from 'react'
-import Dropdown from './components/Drowdown/Dropdown'
-import Menu from './components/Menu/Menu'
+import DropdownPractice from './components/Drowdown/DropdownPractice'
+import ContextPractice from './components/context/ContextPractice'
 
 function App() {
   return (
-    <div>
-      <Dropdown >
-        <Menu/>
-        <Dropdown.Toggle/>
-      </Dropdown>
-    </div>
+  <>
+      {/* <ContextPractice/> */}
+      <DropdownPractice/>
+    </>
   )
 }
 
